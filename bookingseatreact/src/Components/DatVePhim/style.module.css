@@ -1,0 +1,117 @@
+.bookingMovie{
+   position:fixed;
+   width: 100%;
+   height: 100%;
+   background-image: url('../../../public/images/One-Piece-Film-Red-1024x576.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* opacity: .9; */
+   z-index: 2;
+}
+.overLay{
+position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* background-color:rgb(0 0 0 / 50%); */
+  background-color:black;
+  z-index: 9; 
+  opacity: 0.9;
+}
+
+.ghe {
+   border: 3px solid red;
+   width: 45px;
+   height: 35px;
+   font-size: 15px;
+   margin-left: 2%;
+   margin-bottom: 5px;
+   border-radius: 5px;
+}
+.ghe:focus{
+   outline: none;
+}
+
+.rowNumber {
+   font-size: 20px;
+   width: 45px;
+   height: 35px;
+   background: none;
+   border: none;
+   /* margin-left: 2%; */
+   margin-bottom: 1%;
+   font-size: 15px;
+   color: yellow;
+   margin-left: 8px;
+}
+
+
+
+.firstChar {
+   color: yellow;
+   font-size: 35px;
+   margin-right: 15px;
+}
+
+.screen {
+    background-image:url('../../../public/images/bg-screen.png');
+    width: 100%;
+    height: 45px;
+    margin: 20px auto 40px;
+    background-size: 100% auto;
+    filter: drop-shadow(4px 25px 20px rgba(194, 190, 190, 0.5));
+    box-shadow: 0px 34px 51px -8px rgb(117, 105, 105);
+  
+}
+
+
+.booked_seats {
+   border: 3px solid red;
+   background: red;
+   color: #000;
+   margin-left: -15px;
+   cursor: no-drop;
+   border-radius: 5px;
+   width: 45px;
+   height: 35px;
+
+}
+.booked_seats:focus{
+   outline: none;
+}
+
+.booking_seats {
+   background: rgb(109, 238, 109);
+   border: 3px solid rgb(109, 238, 109);
+   color: #000;
+   cursor: pointer;
+   border-radius: 5px;
+   width: 45px;
+   height: 35px;
+   border: 3px solid transparent;
+}
+.booking_seats:focus{
+   outline: none;
+}
+
+.hangGheStyle {
+   color: white;
+   /* margin-left: 50px; */
+   margin-top: 1px;
+}
+
+.hangGheStyle div:first-of-type div {
+   margin-left: 7px;
+   font-weight: bold;
+}
+
+.noteSpan{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

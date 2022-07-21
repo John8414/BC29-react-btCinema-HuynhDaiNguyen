@@ -1,1 +1,1 @@
-export * from "./seatsReducer";
+export * from "./DatVePhim/datVeReducer.js";
