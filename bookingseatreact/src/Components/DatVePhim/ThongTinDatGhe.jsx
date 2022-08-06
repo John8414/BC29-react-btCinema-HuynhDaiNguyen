@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import style from "./style.module.css";
 import { connect } from 'react-redux';
-import { huyVeAction } from '../../Store/Reducers/action/DatVeAction';
+import { huyVeAction } from '../../Store/reducers/action/DatVeAction';
 
 class ThongTinDatGhe extends Component {
    renderThongTin = () => {

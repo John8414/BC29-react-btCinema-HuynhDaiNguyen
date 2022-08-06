@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import style from "./style.module.css";
 import { connect } from 'react-redux';
-import { datVeAction } from '../../Store/Reducers/action/DatVeAction';
+import { datVeAction } from '../../Store/reducers/action/DatVeAction';;
 
 class HangGhe extends Component {
    renderGhe = () => {
